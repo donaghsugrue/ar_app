@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header><h1>Hello World!</h1></header>
+
+    <main>
+        <model-viewer
+            src="models/hay_trough.glb"
+            ios-src="models/hay_trough.glb"
+            camera-controls
+            shadow-intensity="2"
+            touch-action="pan-y"
+            ar
+            scale="0.1 0.1 0.1">
+
+            <button id="ar-button" slot="ar-button">Start AR</button>
+        </model-viewer>
+    </main>
+
+    <footer>
+      <small>Hello World!</small>
+    </footer>
+  </body>
+</html>
