@@ -1,13 +1,13 @@
 <Model globalCoordinateSystem="+proj=geocent +ellps=WGS84 +no_defs" globalCoordinateSystemWkt=""
-   globalCoordinateSystemName="local:1 - Euclidean" exportCoordinateSystemType="0"
-   transformToModel="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1">
+   globalCoordinateSystemName="local:1 - Euclidean" exportCoordinateSystemType="0">
+  <transformToModel>1 0 0 -0 0 0 -1 0 -0 1 0 0.753811597824097 0 0 0 1</transformToModel>
   <Header magic="5786959" version="1"/>
 </Model>
 <ModelExport exportBinary="1" exportInfoFile="1" exportVertices="1" exportVertexColors="0"
    exportVertexNormals="0" exportTriangles="1" exportTriangleStrips="0"
    meshColor="4294967295" tileType="1" exportTextureAlpha="0" exportToOneTexture="0"
    embedTextures="0" shrinkTextures="0" oneTextureMaxSide="8192" oneTextureUsePow2TexSide="1"
-   exportCoordinateSystemType="0" settingsAnchor="0 0 0" settingsRotation="0 0 0"
+   exportCoordinateSystemType="0" settingsAnchor="0 0 0" settingsRotation="-90 0 0"
    settingsScalex="1" settingsScaley="1" settingsScalez="1" normalSpace="2"
    normalRange="0" normalFlip="0 0 0" formatAndVersionUID="glb 000 "
    exportModelByParts="0" exportRandomPartColor="0" exportCameras="0"
